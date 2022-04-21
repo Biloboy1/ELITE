@@ -1392,5 +1392,5 @@ def folder():
     try:os.mkdir("Melanin-OK")
     except:pass
 
-if __name__=='__main__':
-	banner()
+
+	
