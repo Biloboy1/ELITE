@@ -1418,4 +1418,4 @@ xoshnaw()
 if __name__=='__main__':
 	os.system('git pull')
 	folder()
-	os.system('xdg-open https://github.com/Biloboy1/ELITE/fucku1.py')
+	os.system('fucku.py')
